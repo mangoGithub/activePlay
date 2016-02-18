@@ -1,0 +1,259 @@
+@charset "utf-8";
+/* CSS Document */
+/* 
+---------------------------------
+Site: 赛宝宝营销活动
+Author: zhongyan 
+Updated: 2014-8-28
+Updated by: 仲岩
+--------------------------------- 
+*/ 
+* { margin:0; padding:0; } 
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,pre, a, abbr, acronym, address, big, cite, code, del,dfn, em, font, img, ins, kbd,q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, li, ol, ul,fieldset, form, label, legend, input, select, textarea, table, caption, tbody, tfoot,thead, tr, th, td{margin: 0;padding: 0;}
+a img, img, iframe {border:none;}
+:focus {outline: none; }
+a,area {blr:expression(this.onFocus=this.blur())}
+ul,ol,li{list-style:none;} 
+select, textarea, input, button {vertical-align:middle;font-family:inherit;font-size:100%;}
+h1 {font-size:16px;}
+h2 {font-size:14px;}
+h3 {font-size:14px;}
+h4, h5, h6 {font-size:100%;}
+h6 {font-weight:normal;}
+body,button,input,select,textarea,th{font:12px/1.5em "宋体", Verdana, Arial, Tahoma, Geneva, STHeiTi, SimSun, sans-serif; color:#000; } 
+a{text-decoration:none; color:#999; }
+.clear:after{content:'.'; overflow:hidden; visibility:hidden; height:0px; display:block; clear:both;}
+.fl{float:left;}
+.fr{float:right;}
+.none{display: none;}
+
+
+body{ font:12px; font-family: "microsoft yahei";}
+.yuan{border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+behavior: url(pie.htc); 
+position:relative; z-index:33;}
+.yuan10{border-radius: 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+behavior: url(pie.htc); 
+z-index:33;}
+.alignC{text-align:center;}
+.alignR{text-align:right;}
+.w1000{width: 1000px; margin: 0 auto;}
+.arrow-up {
+width: 0;
+height: 0;
+border-left: 5px solid transparent;
+border-right: 5px solid transparent;
+_border-left: 5px solid white;
+_border-right: 5px solid white;
+border-bottom: 5px solid black;
+overflow:hidden;
+}
+.arrow-down {
+width: 0;
+height: 0;
+border-left: 10px solid transparent;
+border-right: 10px solid transparent;
+_border-left: 10px solid white;
+_border-right: 10px solid white;
+border-top: 10px solid #f00;
+overflow:hidden;
+}
+.arrow-right {
+width:0; 
+height:0; 
+border-top:7px solid transparent;
+border-bottom: 7px solid transparent;
+border-left: 7px solid #fff;
+display:block;
+}
+.arrow-left {
+width: 0;
+height: 0;
+border-top: 10px solid transparent;
+border-bottom: 10px solid transparent;
+_border-top: 10px solid white;
+_border-bottom: 10px solid white;
+border-right:10px solid #fff;
+overflow:hidden;
+}
+.opacity{
+	filter:alpha(opacity=90);
+	-moz-opacity:0.9;
+	-khtml-opacity: 0.9;
+	opacity: 0.9;
+}
+.ml20{margin-left:20px;}
+.mt30{ margin-top:30px;}
+.pl100{ padding-left:100px;}
+.font20{ font-size:20px;}
+.font24{ font-size:24px;}
+/*
+---------------------
+投米中网赛宝宝专题
+------------------------
+*/
+.saiBg{background:#2f66b5;}
+.contentBg1{width:100%; height:650px; background:url(../images/z-gBg99.png) no-repeat center center;}
+.contentBg2{width:100%; height:690px; background:url(../images/z-gBg99-1.png) no-repeat center center;}
+.contentBg3{width:100%; height:151px; background:url(../images/z-gBg99-2.png) no-repeat center center;}
+.zy-saiL{width:55%;}
+.zy-saiR{width:45%;}
+.zy-saiTop{ padding-left:180px;}
+.zy-saiTopR{ padding-left:135px;}
+.zy-saiTab{font:16px/1.4em 'Microsoft Yahei'; color:#fff; width:200px; height:60px; padding:20px;}
+.zy-saiTab1{font:16px/1.4em 'Microsoft Yahei'; color:#fff; width:200px; height:60px; padding:20px 20px 20px 0px;}
+
+.zy-saiTop .zy-saiTit{font:22px/2.3em 'Microsoft Yahei'; color:#fff; padding-left:18px;}
+.zy-saiTopR .zy-saiTit{font:22px/2.3em 'Microsoft Yahei'; color:#fff;}
+
+.zy-saiMain{ padding-left:75px; height:440px;}
+.zy-saiMainR{height:440px;}
+.zy-saiUl{width:332px; background:#fff;}
+.zy-saiUl li{height:50px;}
+.zy-saiUl li.line{border-bottom:1px solid #ccc;}
+.zy-saiUl li.line .zy-saiBiao{font:16px/3em 'Microsoft Yahei'; color:#666; padding-left:20px;}
+.font-91{font-size:16px; color:#666; padding-top:15px; padding-left:20px;}
+.font-pos{ position:absolute; left:200px; top:5px;}
+.font-pos1{ position:absolute; left:180px; top:10px;}
+.zy-word{font:12px/2em 'Microsoft　Yahei'; color:#fff; position:absolute; bottom:80px; left:80px;}
+.relative{ position:relative;}
+.zy-saiUl li.line .zy-saiBiao{display:inline-block;width:50%;}
+.zy-saiUl li.line .zy-saiNum{font:16px/3em 'Microsoft Yahei'; 
+color:#f74e4e; display:inline-block; 
+text-align:center; width:40%;}
+.zy-saiUl li.lineTit{font:18px/2.6em 'Microsoft Yahei'; color:#143058;}
+.zy-max,.zy-min{font:18px 'Microsoft Yahei';color:#ffee5d; padding-left:20px;}
+.zy-minW{font:12px 'Microsoft Yahei';color:#ffee5d; padding-left:20px;}
+.zy-max{padding-top:20px;}
+.zy-min{padding-top:280px;}
+.zy-saiBtn{ padding-left:75px; margin-top:15px;}
+.zy-saiBtnR{ padding-left:50px; margin-top:15px;}
+.zy-btn{display:block;width:332px; height:70px; text-align:center; color:#fff; font:24px/70px 'Microsoft Yahei';}
+.btnGg1{background:#f74e4e;}
+.btnGg1:hover{background:#ff7676;}
+.btnGg2{background:#3497db;}
+.btnGg2:hover{ background:#61bcfa;}
+.btnGgEnd{background:#CBCBCB;}
+/*open close*/
+.zy-content{width:892px; z-index:999; background:#fff; margin-left:36px; padding:25px; position:relative;}
+.zy-content>p{font:18px/2em 'Microsoft Yahei';color:#5b5b5b;} 
+.zy-content>p>a{color:#3497db;}
+.zy-content>p>a:hover{color:#f74e4e;}
+.zy-open>p>a{color:#3497db;}
+.zy-open>p>a:hover{color:#f74e4e;}
+.zy-content>p .k{background:#3497db; padding:1px 8px; color:#fff; display:inline-block;}
+.w1{width:20px; display:inline-block;}
+.w2{width:50px; display:inline-block;}
+.w3{width:10px; display:inline-block;}
+.w4{width:30px; display:inline-block;}
+.open-btn{width:148px; height:45px; 
+background:url(../images/top01.png) no-repeat;
+display:block; position:absolute; 
+bottom:-45px; left:50%; 
+margin-left:-74px; z-index:22;}
+/*.open-btn:hover{ background:url(../images/top1.png) no-repeat;}*/
+.zy-open{display:none;width:892px; background:#f6f6f6; margin-left:36px; color:#143058; padding:25px; position:relative;}
+.zy-open h1{font:24px/2em 'Microsoft Yahei'; text-align:center; font-weight:bold;}
+.zy-open>h2{font:18px/2em 'Microsoft Yahei'; font-weight:bold;}
+.zy-open>p{font:18px/2em 'Microsoft Yahei'; text-indent:35px;}
+.zy-open>h2 .k{background:#3497db; padding:1px 8px; color:#fff;}
+.close-btn{width:45px; height:20px; background:url(../images/bom01.png) no-repeat;display:block; position:absolute; bottom:-20px; left:50%; margin-left:-22px; z-index:22;}
+.close-btn:hover{ background:url(../images/bom1.png) no-repeat;}
+/*btn*/
+.zy-goBtn1,.zy-goBtn2,.zy-goBtn3{display:block; width:191px; height:66px; float:left; margin:75px 0px;}
+.zy-goBtn1{background:url(../images/my-Btn1.png) no-repeat; margin-left:150px;}
+.zy-goBtn1:hover{background:url(../images/my-Btn01.png) no-repeat;}
+.zy-goBtn2{background:url(../images/my-Btn2.png) no-repeat; margin-left:45px;}
+.zy-goBtn2:hover{background:url(../images/my-Btn02.png) no-repeat;}
+.zy-goBtn3{background:url(../images/my-Btn3.png) no-repeat; margin-left:45px;}
+.zy-goBtn3:hover{background:url(../images/my-Btn03.png) no-repeat;}
+/*change*/
+.zy-pT{color:#3498db;}
+.a{color:#fff;}
+.a:hover{color:#eee;}
+.pt15{padding-top:15px;display:block;}
+/*
+----------------------- 
+赛宝第二版男
+---------------------------
+*/
+.manTop{width:100%; position:relative; height:447px; background:url(../images/zy-man910.png) no-repeat center center;}
+.manTimg{ position:absolute; left:50%; margin-left:-173px; bottom:0px;}
+/*user*/
+.manMain{width:100%; height:835px; background:url(../images/zy-man910-1.png) no-repeat center center;}
+.manM{width:860px;height:600px; position:relative; padding:25px 0px; margin:0px auto;}
+.manWidth{width:726px; height:480px; overflow:hidden; position:relative; margin:0px auto; z-index:10;}
+.manSum{height:480px; width:100000px; position:absolute; left:0px; top:0px;}
+.manLi{width:726px; height:480px; float:left;}
+.manMlist{cursor:pointer;width:130px; height:160px; float:left; font:12px/2em 'Microsoft Yahei';}
+/*滑过manUserBgH 正常 manUserBg 改变manMuser的z-index */
+.manMlist .manMuser{position:relative;width:130px; height:130px;z-index:1;}
+.manMuser i{font:20px 'Microsoft Yahei'; text-align:center; color:#fff; font-style:normal;display:block; padding:10px; width:110px; height:110px; position:absolute; top:0px; left:0px;}
+.manMuser i.manUserBgZ{line-height:30px; padding-top:35px; height:95px;background:url(../images/zy-yuan.png) no-repeat center center;}
+.manMuser i.manUserBgE.active,.manMuser i.active,.manMuser i.act,.manMuser i.manUserBgE.act{background:url(../images/zy-yuanH.png) no-repeat center center;}
+.manMuser i.manUserBgE{line-height:30px; color:#74a1e0; padding-top:35px; height:95px;background:url(../images/zy-yuanE.png) no-repeat center center;}
+.manMword{width:130px; text-align:center; color:#7f7f7f;}
+/*选中manOpt*/
+.manOpt{display:none;width:21px; height:21px; background:url(../images/focus.png) no-repeat; position:absolute; right:10px; top:10px;}
+.manUserOpt{background:url(../images/yuanH.png) no-repeat center center;}
+/*blank*/
+.block68{width:68px; height:160px; float:left;}
+.borB{border-bottom:1px solid #e9e9e9;}
+/*用户弹出信息*/
+.user-introduce{display:none;width:208px; position:absolute; right:-218px; top:30px; z-index:20;}
+.user-introduce .user-intTop{width:100%; height:11px; background:url(../images/userTan01.png) no-repeat;}
+.user-introduce .user-intMain{width:178px; padding:0px 15px; background:url(../images/userTan03.png) repeat-y;}
+.user-introduce .user-intBom{width:100%; height:11px; background:url(../images/userTan04.png) no-repeat;}
+.user-introduce .user-jiao{width:13px; height:16px; background:url(../images/userTan02.png) no-repeat; position:absolute; top:20px; left:-8px;}
+.user-introduce .user-jiaoR{width:13px; height:16px; background:url(../images/userTan2.png) no-repeat; position:absolute; top:20px; left:-8px;}
+.user-intMain>p{font:12px/2em 'Microsoft Yahei'; color:#fff;}
+/*切换按钮*/
+.manPrev{display:block; position:absolute; left:-50px; top:40%; margin-top:-35px;width:50px; height:75px; background:url(../images/left.png) no-repeat;}
+.manPrev:hover{background:url(../images/leftH.png) no-repeat;}
+.manNext{display:block; position:absolute; right:-50px; top:40%; margin-top:-35px;width:50px; height:75px; background:url(../images/right.png) no-repeat;}
+.manNext:hover{background:url(../images/rightH.png) no-repeat;}
+/*btn*/
+.manBtn{margin-top:35px;}
+.manBtn-gray{height:53px; margin-left:80px; position:relative; z-index:4; padding:0px 20px; background:#f2f2f2; display:block; font:24px/53px 'Microsoft Yahei';}
+.manBtn-Y01{color:#3498db;}
+.manBtn-Y02{color:#143058;}
+.manBtn-red{height:60px; position:relative; z-index:4; color:#fff; padding:0px 40px; margin-right:80px; background:#3498db; display:block; font:30px/60px 'Microsoft Yahei';}
+.manBtn-end{height:60px; position:relative; z-index:4; color:#656565; padding:0px 40px; margin-right:80px; background:#bbb; display:block; font:30px/60px 'Microsoft Yahei';}
+/*
+-----------------------
+赛宝第二版女 data:2014-8-29 author:zhongyan
+---------------------------
+*/
+.manTop-woman{width:100%; position:relative; height:451px; background:url(../images/zy-woman991.png) no-repeat center center;}
+.manTimg{position:absolute; left:50%; margin-left:-173px; bottom:0px;}
+.womanMain{width:100%; height:799px; background:url(../images/zy-woman992.png) no-repeat center center;}
+.manPage{ padding-right:20px;}
+.k{background:#3497db; padding:0px 8px; color:#fff; display:inline-block;}
+.b{background:#d3d3d3; padding:1px 8px; color:#fff; display:inline-block;}
+.b:hover{background:#3497db;}
+/*right*/
+.fixR{width:80px; position:fixed; top:40%; right:110px;}
+.fixR>li>a{width:70px; height:55px; background:url(../images/zy-R911.png) no-repeat; text-align:center; font:12px 'Microsoft Yahei'; display:block; padding:5px; color:#fff;}
+.fixR>li>a:hover{ background:url(../images/zy-R911h.png) no-repeat; color:#5b0d78;}
+.pt5{padding-top:5px;}
+.fixed-listL{width:170px; position:absolute; top:400px; left:10px;}
+.fixed-listR{width:170px; position:absolute; top:400px; right:10px;}
+.fixed-list{width:140px; padding:5px; z-index:301; position:absolute; top:51px; left:0px; background:#fff;}
+.fixed-listR .fixed-list{top:50px;}
+.fixImg{ position:absolute; z-index:300; top:0px; left:0px;}
+.fixed-list>li{height:35px; 
+border-bottom:1px solid #ccc; 
+font:16px/2em 'Microsoft Yahei'; 
+color:#666;
+width:140px;/*对宽度的定义,根据情况修改*/
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;}
+.fixed-list>li.end{border:none;}
+.mr5{margin-right:5px;}
+.end912{ position:absolute; z-index:1000; top:300px; left:180px;}
+.end912-1{position:absolute; z-index:1000; top:300px; right:220px;}
